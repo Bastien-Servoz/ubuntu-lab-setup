@@ -34,3 +34,21 @@ Ce projet documente la mise en place d'un environnement de lab virtualisé sous 
 ## 📌 Prochaines étapes
 - Premières commandes Linux avancées (navigation, permissions, fichiers)
 - Configuration réseau de la VM
+## 🖥️ Compétences terminal Linux développées
+
+### Navigation et gestion de fichiers
+- `pwd`, `cd`, `ls` — navigation dans l'arborescence Linux
+- `mkdir`, `touch` — création de dossiers et fichiers
+
+### Permissions et sécurité
+- Lecture et interprétation des permissions Linux (`rwx` — propriétaire/groupe/autres)
+- Modification des permissions avec `chmod` (notation symbolique et numérique)
+- Compréhension du lien entre permissions et sécurité système
+
+### Gestion des utilisateurs et groupes
+- Identification de session (`whoami`, `id`, `groups`)
+- Création et suppression d'utilisateurs (`adduser`, `deluser --remove-home`)
+- Compréhension du rôle du groupe `sudo` dans l'attribution des droits administrateur
+
+## 🔬 Mini-projet : gestion d'un utilisateur de test
+Création d'un utilisateur `testuser`, vérification de son appartenance aux groupes système, puis suppression propre (compte + dossier personnel) — démonstration pratique de la gestion du cycle de vie d'un compte Linux.
